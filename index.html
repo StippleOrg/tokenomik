@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokenomik | Engineering the Future of Autonomous Capital</title>
+    <meta name="description" content="Tokenomik is a premier Venture Capital partner for founders building Agentic AI and Tokenized platforms. We provide capital, technical architecture, and fundraising velocity.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            black: '#050505',
+                            gray: '#111111',
+                            accent: '#006FFF',
+                            border: '#222222'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #050505; color: #ffffff; }
+        .glass-card { background: rgba(17, 17, 17, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(135deg, #ffffff 0%, #a1a1a1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glow-button { transition: all 0.3s ease; box-shadow: 0 0 0 rgba(0, 111, 255, 0); }
+        .glow-button:hover { box-shadow: 0 0 20px rgba(0, 111, 255, 0.4); }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 border-b border-brand-border bg-brand-black/80 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-brand-accent rounded-sm flex items-center justify-center font-bold text-white">T</div>
+                <span class="font-display text-xl font-bold tracking-tight uppercase tracking-widest">Tokenomik</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-400">
+                <a href="#services" class="hover:text-white transition-colors">Services</a>
+                <a href="#thesis" class="hover:text-white transition-colors">Thesis</a>
+                <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
+                <a href="#apply" class="px-5 py-2.5 bg-white text-black rounded hover:bg-gray-200 transition-all">Apply for Support</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-40 pb-24 px-6 overflow-hidden">
+        <div class="absolute top-0 right-0 -z-10 w-1/2 h-1/2 bg-brand-accent/10 blur-[120px] rounded-full"></div>
+        <div class="max-w-7xl mx-auto">
+            <div class="max-w-4xl">
+                <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full border border-brand-accent/30 bg-brand-accent/10 text-brand-accent text-xs font-semibold mb-8 uppercase tracking-widest">
+                    <span>Next-Gen Venture Building</span>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-display font-medium leading-[1.1] mb-8 gradient-text">
+                    Engineering the Future of <br class="hidden md:block">
+                    <span class="italic">Autonomous Capital.</span>
+                </h1>
+                <p class="text-xl text-gray-400 leading-relaxed mb-10 max-w-2xl">
+                    Tokenomik is a premier Venture Capital partner for founders building at the intersection of Agentic AI and Tokenization. We provide capital, technical architecture, and fundraising velocity for the world's first Zero-Human companies.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#apply" class="glow-button bg-brand-accent text-white px-8 py-4 rounded font-semibold text-center">Apply for Venture Support</a>
+                    <a href="#thesis" class="px-8 py-4 border border-brand-border hover:bg-white/5 transition-colors rounded font-semibold text-center">Review Thesis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Bar -->
+    <section class="border-y border-brand-border py-12 bg-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-bold mb-1 font-display leading-none text-white">$40B+</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-widest">AI Capital Surge</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold mb-1 font-display leading-none text-white">10+</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-widest">Institutional LPs</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold mb-1 font-display leading-none text-white">24/7</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-widest">Autonomous Support</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold mb-1 font-display leading-none text-white">2-10%</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-widest">Target Sweat Equity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features/Pillars -->
+    <section id="services" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-3xl font-display font-bold mb-4">Our Strategic Pillars</h2>
+                <p class="text-gray-400">Institutional-grade support for the agentic economy.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 glass-card rounded-xl hover:border-brand-accent/50 transition-colors group">
+                    <div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Agentic Architecture</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Navigating LangGraph, CrewAI, and custom frameworks. We move past simple RAG into complex autonomous workflows that drive real economic value.
+                    </p>
+                </div>
+
+                <div class="p-8 glass-card rounded-xl hover:border-brand-accent/50 transition-colors group">
+                    <div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Economic Modeling</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Designing sustainable tokenomics for autonomous economic actors. We structure on-chain incentives that align AI agents with human stakeholders.
+                    </p>
+                </div>
+
+                <div class="p-8 glass-card rounded-xl hover:border-brand-accent/50 transition-colors group">
+                    <div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Institutional Access</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Direct pipelines to LP networks and strategic capital. We provide technical validation that satisfies the rigorous demands of institutional investors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="#apply" class="inline-flex items-center text-brand-accent font-semibold hover:underline group">
+                    View Full Strategic Services 
+                    <svg class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hybrid Pricing Section -->
+    <section id="pricing" class="py-24 px-6 bg-brand-gray">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-display font-medium mb-4">The Hybrid Venture Model</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto italic">Full-cycle support from seed to scale. We win when you win.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-0 border border-brand-border rounded-2xl overflow-hidden">
+                <div class="p-10 border-b md:border-b-0 md:border-r border-brand-border bg-brand-black">
+                    <h4 class="text-brand-accent font-display text-sm uppercase tracking-widest mb-4">Strategy Audit</h4>
+                    <div class="text-3xl font-bold mb-6 italic font-display">$25K - $75K</div>
+                    <ul class="space-y-4 text-sm text-gray-400 mb-8">
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Agentic Framework Analysis</li>
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Economic Viability Audit</li>
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Infrastructure Cost Modeling</li>
+                    </ul>
+                    <a href="#" class="block w-full text-center py-3 border border-brand-border text-white hover:bg-white/5 transition-colors rounded">Book Audit</a>
+                </div>
+
+                <div class="p-10 border-b md:border-b-0 md:border-r border-brand-border bg-white/5 relative">
+                    <div class="absolute top-0 right-0 bg-brand-accent text-white text-[10px] uppercase font-bold px-3 py-1">Most Strategic</div>
+                    <h4 class="text-brand-accent font-display text-sm uppercase tracking-widest mb-4">Venture Builder</h4>
+                    <div class="text-3xl font-bold mb-6 italic font-display">Sweat Equity + Retainer</div>
+                    <ul class="space-y-4 text-sm text-gray-400 mb-8">
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> 2% to 10% Equity Stakes</li>
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Hands-on Engineering Support</li>
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Monthly Execution Retainer</li>
+                    </ul>
+                    <a href="#apply" class="block w-full text-center py-3 bg-brand-accent text-white rounded hover:opacity-90 transition-all">Apply for Builder Program</a>
+                </div>
+
+                <div class="p-10 bg-brand-black">
+                    <h4 class="text-brand-accent font-display text-sm uppercase tracking-widest mb-4">Capital Velocity</h4>
+                    <div class="text-3xl font-bold mb-6 italic font-display">Fundraise Fee %</div>
+                    <ul class="space-y-4 text-sm text-gray-400 mb-8">
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Access to 50+ Institutional VC Partners</li>
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Private LP Showcases</li>
+                        <li class="flex items-start"><span class="mr-2 text-brand-accent">•</span> Deck & Model Hardening</li>
+                    </ul>
+                    <a href="#" class="block w-full text-center py-3 border border-brand-border text-white hover:bg-white/5 transition-colors rounded">Investor Relations</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Apply Section -->
+    <section id="apply" class="py-24 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="glass-card p-12 rounded-2xl">
+                <div class="mb-10 text-center">
+                    <h2 class="text-3xl font-display font-medium mb-4 uppercase tracking-tight">Apply for Intelligence Support</h2>
+                    <p class="text-gray-400">Our selection process is rigorous. We look for founders building for the next decade of autonomous commerce.</p>
+                </div>
+                <form class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-2">
+                        <label class="text-xs font-bold text-gray-400 uppercase">Founder Name</label>
+                        <input type="text" class="w-full bg-brand-black border border-brand-border p-3 rounded focus:border-brand-accent outline-none text-white">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-xs font-bold text-gray-400 uppercase">Platform Name</label>
+                        <input type="text" class="w-full bg-brand-black border border-brand-border p-3 rounded focus:border-brand-accent outline-none text-white">
+                    </div>
+                    <div class="space-y-2 md:col-span-2">
+                        <label class="text-xs font-bold text-gray-400 uppercase">Current Tech Stack (Agentic Framework focus)</label>
+                        <input type="text" placeholder="e.g., LangGraph, Autogen, Custom Py-Agents" class="w-full bg-brand-black border border-brand-border p-3 rounded focus:border-brand-accent outline-none text-white">
+                    </div>
+                    <div class="space-y-2 md:col-span-2">
+                        <label class="text-xs font-bold text-gray-400 uppercase">Primary Challenge</label>
+                        <textarea rows="4" class="w-full bg-brand-black border border-brand-border p-3 rounded focus:border-brand-accent outline-none text-white"></textarea>
+                    </div>
+                    <button type="submit" class="md:col-span-2 py-4 bg-white text-black font-bold uppercase tracking-widest hover:bg-brand-accent hover:text-white transition-all">Submit for Technical Review</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-brand-border py-12 bg-brand-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-2">
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-6 h-6 bg-brand-accent rounded-sm"></div>
+                        <span class="font-display text-lg font-bold tracking-widest">TOKENOMIK</span>
+                    </div>
+                    <p class="text-gray-500 text-sm max-w-sm">
+                        Global Venture Capital and Venture Builder for Autonomous Economic Organizations. We invest in the agents that will own the 2030s economy.
+                    </p>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-4 uppercase text-xs">Intelligence</h5>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><a href="#" class="hover:text-brand-accent transition-colors">Investment Thesis</a></li>
+                        <li><a href="#" class="hover:text-brand-accent transition-colors">Technical Research</a></li>
+                        <li><a href="#" class="hover:text-brand-accent transition-colors">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-4 uppercase text-xs">Legal</h5>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><a href="#" class="hover:text-brand-accent transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-brand-accent transition-colors">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-brand-accent transition-colors">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-brand-border text-center">
+                <p class="text-xs text-gray-600">&copy; 2025 Tokenomik. All Rights Reserved. Not financial advice.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
